@@ -2,6 +2,8 @@
 
 面向澳门科技大学学生的拼车小程序网页 Demo：寻找同路伙伴、确认同行、聊天集合及车费分摊记录。
 
+**在线体验：[校园拼车 Demo](https://campus-carpool-ten.vercel.app)**
+
 ## 产品文档
 
 - [产品需求文档（PRD）](docs/PRD.md)：功能需求、用户旅程、角色权限、业务规则、17 条核心验收用例和正式版待办。
@@ -26,6 +28,10 @@ python3 -m http.server 8765 --directory dist
 ## Vercel 部署
 
 仓库根目录提供 `vercel.json`，框架选择 Other，构建命令 `npm run build`，输出目录 `dist`。静态网页不需要环境变量或数据库。
+
+Vercel 项目已连接本 GitHub 仓库，`main` 分支的新提交会自动触发部署。正式访问地址：
+
+https://campus-carpool-ten.vercel.app
 
 ## 目录
 
